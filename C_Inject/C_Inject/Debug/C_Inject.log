@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  C_Inject.cpp
+c:\users\anuwat\source\repos\c_inject\c_inject\c_inject.cpp(78): warning C4477: 'swprintf_s' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'BOOL'
+  C_Inject.vcxproj -> C:\Users\anuwat\source\repos\C_Inject\Debug\C_Inject.exe

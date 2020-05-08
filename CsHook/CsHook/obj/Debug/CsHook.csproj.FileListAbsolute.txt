@@ -1,0 +1,5 @@
+C:\Users\anuwat\source\repos\CsHook\CsHook\bin\Debug\CsHook.dll
+C:\Users\anuwat\source\repos\CsHook\CsHook\bin\Debug\CsHook.pdb
+C:\Users\anuwat\source\repos\CsHook\CsHook\obj\Debug\CsHook.csproj.CoreCompileInputs.cache
+C:\Users\anuwat\source\repos\CsHook\CsHook\obj\Debug\CsHook.dll
+C:\Users\anuwat\source\repos\CsHook\CsHook\obj\Debug\CsHook.pdb

@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  cHookHeader.cpp
+  dllmain.cpp
+  Generating Code...
+C:\Users\anuwat\source\repos\CsHook\cHookHeader\dllmain.cpp : warning C4747: Calling managed '_DllMain@12': Managed code may not be run under loader lock, including the DLL entrypoint and calls reached from the DLL entrypoint
+  .NETFramework,Version=4.6.1.AssemblyAttributes.cpp
+  cHookHeader.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  cHookHeader.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  cHookHeader.vcxproj -> C:\Users\anuwat\source\repos\CsHook\Debug\cHookHeader.dll

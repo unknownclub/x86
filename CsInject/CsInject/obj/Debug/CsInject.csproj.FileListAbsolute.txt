@@ -1,0 +1,10 @@
+C:\Users\anuwat\source\repos\CsInject\CsInject\bin\Debug\CsInject.exe.config
+C:\Users\anuwat\source\repos\CsInject\CsInject\bin\Debug\CsInject.exe
+C:\Users\anuwat\source\repos\CsInject\CsInject\bin\Debug\CsInject.pdb
+C:\Users\anuwat\source\repos\CsInject\CsInject\obj\Debug\CsInject.csprojAssemblyReference.cache
+C:\Users\anuwat\source\repos\CsInject\CsInject\obj\Debug\CsInject.Form1.resources
+C:\Users\anuwat\source\repos\CsInject\CsInject\obj\Debug\CsInject.Properties.Resources.resources
+C:\Users\anuwat\source\repos\CsInject\CsInject\obj\Debug\CsInject.csproj.GenerateResource.cache
+C:\Users\anuwat\source\repos\CsInject\CsInject\obj\Debug\CsInject.csproj.CoreCompileInputs.cache
+C:\Users\anuwat\source\repos\CsInject\CsInject\obj\Debug\CsInject.exe
+C:\Users\anuwat\source\repos\CsInject\CsInject\obj\Debug\CsInject.pdb
