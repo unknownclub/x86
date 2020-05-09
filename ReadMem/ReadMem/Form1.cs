@@ -59,6 +59,23 @@ namespace ReadMem
             return result;
         }
 
+
+        int GetAddress(IntPtr hProcess, IntPtr lpBaseAddress)
+        {
+            byte[] data = new byte[4];
+            if (ReadProcessMemory(hProcess, lpBaseAddress, data, 4, 0) == 0)
+            {
+                return 0;
+            }
+
+            String hex = data[3].ToString("x2") +
+                         data[2].ToString("x2") +
+                         data[1].ToString("x2") +
+                         data[0].ToString("x2");
+
+            return int.Parse(hex, System.Globalization.NumberStyles.HexNumber);
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.textBox1.Clear();
@@ -118,6 +135,12 @@ namespace ReadMem
             int WxCountryAddress = (int)WeChatWinBaseAddress + 0x16B4A88;
             this.textBox1.AppendText("country:\t" + GetString(WxProcess.Handle, (IntPtr)WxCountryAddress) + Environment.NewLine);
 
+            int wxId = (int) WeChatWinBaseAddress + 0x16B4834;
+            this.textBox1.AppendText("wxId:\t" + GetString(WxProcess.Handle, (IntPtr)(GetAddress(WxProcess.Handle, (IntPtr)wxId))) + Environment.NewLine);
+
+
+            int wxImage = (int) WeChatWinBaseAddress + 0x16B4B74;
+            this.textBox1.AppendText("wxImage:\t" + GetString(WxProcess.Handle, (IntPtr)(GetAddress(WxProcess.Handle, (IntPtr)wxImage))) + Environment.NewLine);
 
 
 
