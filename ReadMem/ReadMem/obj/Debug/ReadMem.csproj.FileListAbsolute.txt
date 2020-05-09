@@ -1,0 +1,10 @@
+C:\Users\anuwat\source\repos\ReadMem\ReadMem\bin\Debug\ReadMem.exe.config
+C:\Users\anuwat\source\repos\ReadMem\ReadMem\bin\Debug\ReadMem.exe
+C:\Users\anuwat\source\repos\ReadMem\ReadMem\bin\Debug\ReadMem.pdb
+C:\Users\anuwat\source\repos\ReadMem\ReadMem\obj\Debug\ReadMem.csprojAssemblyReference.cache
+C:\Users\anuwat\source\repos\ReadMem\ReadMem\obj\Debug\ReadMem.Form1.resources
+C:\Users\anuwat\source\repos\ReadMem\ReadMem\obj\Debug\ReadMem.Properties.Resources.resources
+C:\Users\anuwat\source\repos\ReadMem\ReadMem\obj\Debug\ReadMem.csproj.GenerateResource.cache
+C:\Users\anuwat\source\repos\ReadMem\ReadMem\obj\Debug\ReadMem.csproj.CoreCompileInputs.cache
+C:\Users\anuwat\source\repos\ReadMem\ReadMem\obj\Debug\ReadMem.exe
+C:\Users\anuwat\source\repos\ReadMem\ReadMem\obj\Debug\ReadMem.pdb
