@@ -1,0 +1,10 @@
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\bin\Debug\CaptureWindows.exe.config
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\bin\Debug\CaptureWindows.exe
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\bin\Debug\CaptureWindows.pdb
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.csprojAssemblyReference.cache
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.Form1.resources
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.Properties.Resources.resources
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.csproj.GenerateResource.cache
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.csproj.CoreCompileInputs.cache
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.exe
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.pdb
