@@ -1,0 +1,92 @@
+﻿Base=0F0D0000
+Module=wechatwin.dll
+Party=User
+Path=C:\Program Files (x86)\Tencent\WeChat\WeChatWin.dll
+Status=Unloaded
+
+
+
+WeChatWin.dll = 0F0D0000
+name: WeChatWin.dll+16B48AC
+id: WeChatWin.dll+16B4A10
+tel: WeChatWin.dll+16B48E0‬
+city: WeChatWin.dll+16B4998
+country: WeChatWin.dll+16B4A88‬
+phone: country: WeChatWin.dll+16B4CE8‬
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"name"</Description>
+      <LastState RealAddress="107848AC"/>
+      <VariableType>String</VariableType>
+      <Length>11</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>WeChatWin.dll+16B48AC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"id"</Description>
+      <LastState RealAddress="10784A10"/>
+      <VariableType>String</VariableType>
+      <Length>11</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>WeChatWin.dll+16B4A10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"tel"</Description>
+      <LastState RealAddress="107848E0"/>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>107848e0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"city"</Description>
+      <LastState RealAddress="10784998"/>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>10784998</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"country"</Description>
+      <LastState RealAddress="10784A88"/>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>10784A88</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"phone"</Description>
+      <LastState RealAddress="10784CE8"/>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>10784CE8</Address>
+    </CheatEntry>
+  </CheatEntries>
+</CheatTable>
+
+
+
+
