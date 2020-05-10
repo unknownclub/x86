@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -140,6 +141,8 @@ namespace CaptureWindows
                 MessageBox.Show("Cannot open GetWindowRect.");
                 return;
             }
+            //int width = rectangle.Width - rectangle.X;
+            //int height = rectangle.Height - rectangle.Y;
 
             int width = rectangle.Width;
             int height = rectangle.Height;
@@ -182,16 +185,26 @@ namespace CaptureWindows
             this.pictureBox1.Height = height;
             this.pictureBox1.Image = Image.FromHbitmap(createCompatibleBitmap);
 
+            this.pictureBox1.Image.Save(Environment.CurrentDirectory + "\\wx.png", ImageFormat.Png);
+
+            int qrWidth = 280;
+            int qrHeight = 280;
+
+            Image qrImage = new Bitmap(qrWidth, qrHeight);
+            Graphics graphics = Graphics.FromImage(qrImage);
+            graphics.DrawImage(Image.FromHbitmap(createCompatibleBitmap),
+                new Rectangle(0, 0, qrWidth, qrHeight),
+                new Rectangle(40, 80, qrWidth, qrHeight), GraphicsUnit.Pixel);
+            graphics.Dispose();
+
+            this.pictureBox2.Width = qrWidth;
+            this.pictureBox2.Height = qrHeight;
+            this.pictureBox2.Image = qrImage;
+
 
             DeleteObject(createCompatibleBitmap);
             DeleteDC(createCompatibleBitmap);
             ReleaseDC(WxProcess.MainWindowHandle, windowsDCHandle);
-
-
-
-
-
-
 
 
 
