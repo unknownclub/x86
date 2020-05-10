@@ -8,3 +8,10 @@ C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWind
 C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.csproj.CoreCompileInputs.cache
 C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.exe
 C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.pdb
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\bin\Debug\zxing.dll
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\bin\Debug\zxing.presentation.dll
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\bin\Debug\zxing.pdb
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\bin\Debug\zxing.xml
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\bin\Debug\zxing.presentation.pdb
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\bin\Debug\zxing.presentation.xml
+C:\Users\anuwat\source\repos\CaptureWindows\CaptureWindows\obj\Debug\CaptureWindows.csproj.CopyComplete

@@ -10,6 +10,8 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ZXing;
+using ZXing.QrCode;
 
 namespace CaptureWindows
 {
@@ -206,6 +208,31 @@ namespace CaptureWindows
             DeleteDC(createCompatibleBitmap);
             ReleaseDC(WxProcess.MainWindowHandle, windowsDCHandle);
 
+
+            // create a barcode reader instance
+            IBarcodeReader reader = new BarcodeReader();
+            // load a bitmap
+            var barcodeBitmap = (Bitmap)this.pictureBox1.Image;
+            // detect and decode the barcode inside the bitmap
+            var result = reader.Decode(barcodeBitmap);
+            // do something with the result
+            if (result != null)
+            {
+
+                this.textBox1.Text = result.Text;
+            }
+
+            BarcodeWriter barcodeWriter = new BarcodeWriter();
+            barcodeWriter.Format = BarcodeFormat.QR_CODE;
+            QrCodeEncodingOptions options = new QrCodeEncodingOptions();
+            options.Width = 280;
+            options.Height = 280;
+            options.Margin = 2;
+            barcodeWriter.Options = options;
+            Bitmap bitmap = barcodeWriter.Write(this.textBox1.Text);
+            this.pictureBox3.Width = 280;
+            this.pictureBox3.Height = 280;
+            this.pictureBox3.Image = bitmap;
 
 
 
